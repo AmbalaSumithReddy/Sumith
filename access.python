@@ -1,0 +1,23 @@
+my_list = [10, 20, 30, 40, 50]
+first_element = my_list[0]  # 10
+second_element = my_list[1]  # 20
+last_element = my_list[-1]  # 50
+
+
+my_tuple = ("apple", "banana", "cherry", "date", "elderberry")
+first_fruit = my_tuple[0]  # "apple"
+third_fruit = my_tuple[2]  # "cherry"
+last_fruit = my_tuple[-1]  # "elderberry"
+
+
+
+my_dict = {
+    "name": "Alice",
+    "age": 30,
+    "city": "London",
+    "job": "Engineer",
+    "hobby": "Painting"
+}
+name = my_dict["name"]  # "Alice"
+age = my_dict["age"]  # 30
+hobby = my_dict["hobby"]  # "Painting"
